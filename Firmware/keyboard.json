@@ -12,7 +12,7 @@
     },
     "matrix_pins": {
         "cols": ["GP26", "GP27", "GP28", "GP29"],
-        "rows": ["GP3", "GP4", "GP2"]
+        "rows": ["GP3", "GP4", "GP5"]
     },
     "processor": "RP2040",
     "url": "https://github.com/LtBrain/tronzpad/",
