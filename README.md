@@ -34,7 +34,12 @@ QMK and VIAL are meant to be used on Tronzpad for firmware.
    - [x] **12 keys for macros**
    - [x] **Compilable with QMK MSYS on Win11 and Linux (MacOS not tested)**
    - [x] **Real-time/On the fly configuration**
-   - [x] **Layer Switching**
+   - [x] **Layer Switching**  
+### **How to Compile the Firmware**  
+```qmk compile -kb tronzpad -km default```  
+  
+Paste this into a **MSYS** terminal on Windows or into a Linux terminal with **QMK** already setup.  
+(You have to be in the **directory** for this to work)
 
 ## Case Assembly
    The case for the Tronzpad was designed to be minimalistic, exposing the graphics on the PCB silkscreen. It is composed of two 3D printed parts, a plate piece and the main assembly.
