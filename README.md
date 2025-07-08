@@ -1,5 +1,5 @@
 # **Tronzpad**
-**TRONZPAD** is a 12 key + 1 encoder macropad that has 12 individually addressable LEDs to provide underglow & backlighting.
+Tronzpad is a 12 key + 1 encoder macropad that has 12 individually addressable LEDs to provide underglow & backlighting.
 It was developed for an entry for **Hackclub Highway**'s YSWS project (Hackpad) and has the ability to perform **macros** and other
 cool stuff with VIAL & QMK.
 
