@@ -11,27 +11,40 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP26", "GP27", "GP28", "GP29"],
-        "rows": ["GP3", "GP4", "GP5"]
+        "cols": ["GP26", "GP27", "GP28", "GP29", "GP6"],
+        "rows": ["GP3", "GP4", "GP2"]
     },
     "processor": "RP2040",
     "url": "https://github.com/LtBrain/tronzpad/",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED" 
+        "pid": "0x1C96",
+        "vid": "0x1FC9" 
+    },
+    "encoders": {
+      "enabled": true,
+      "rotary": [
+        { "pin_a": "GP7",
+          "pin_b": "GP0",
+          "resolution": 4
+        }
+      ]
     },
     "layouts": {
     "LAYOUT": {
       "layout": [
+
         {"matrix": [0, 0], "x": 0, "y": 0},
         {"matrix": [0, 1], "x": 1, "y": 0},
         {"matrix": [0, 2], "x": 2, "y": 0},
         {"matrix": [0, 3], "x": 3, "y": 0},
+        {"matrix": [0, 4], "x": 4, "y": 0},
+
         {"matrix": [1, 0], "x": 0, "y": 1},
         {"matrix": [1, 1], "x": 1, "y": 1},
         {"matrix": [1, 2], "x": 2, "y": 1},
         {"matrix": [1, 3], "x": 3, "y": 1},
+
         {"matrix": [2, 0], "x": 0, "y": 2},
         {"matrix": [2, 1], "x": 1, "y": 2},
         {"matrix": [2, 2], "x": 2, "y": 2},
